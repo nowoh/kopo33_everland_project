@@ -44,15 +44,15 @@ public class Print {
 			}
 			
 			if (CalPrice.calcAgeGroup(orderList[index][1]) == FixedValue.BABY) {
-				System.out.printf("유아  ");
+				System.out.printf("유  아 ");
 			} else if (CalPrice.calcAgeGroup(orderList[index][1]) == FixedValue.CHILD) {
 				System.out.printf("어린이 ");
 			} else if (CalPrice.calcAgeGroup(orderList[index][1]) == FixedValue.TEEN) {
 				System.out.printf("청소년 ");
 			} else if (CalPrice.calcAgeGroup(orderList[index][1]) == FixedValue.ADULT) {
-				System.out.printf("어른  ");
+				System.out.printf("어  른 ");
 			} else {
-				System.out.printf("노인  ");
+				System.out.printf("노  인 ");
 			}
 			
 			System.out.printf("X %3d", orderList[index][2]);
